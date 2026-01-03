@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "Module 2 Project"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "Module 2 Project"
+	}
+}
