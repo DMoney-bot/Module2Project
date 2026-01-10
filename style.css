@@ -1,0 +1,748 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1, a{
+  color: #243e63;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div {
+    display: block;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.header {
+    padding: 20px, 0;
+}
+
+p {
+    font-weight: bold;
+    color: gray;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+/* Navigation Bar */
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 175px;
+}
+
+.navLink {
+    display: flex;
+    align-items: end;
+    margin: 0 16px;
+    justify-content: flex-end;
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navLogoImage {
+    height: 40px;
+    width: 40px;
+}
+
+.navSign {
+    background-color: #5d3eff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    color: white;
+}
+
+/* Header Page Content */
+
+.purpText {
+    color: #5d3eff;
+}
+
+.headerTitle {
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.headerPara {
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.headerDescription {
+    flex: 1;
+}
+
+.headerEmail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border: solid 1px lightgray;
+    border-radius: 50px;
+    padding: 8px 8px;
+    width: 70%;
+    max-width: 400px;
+}
+
+.headerEmailInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.headerEmailButton {
+    background-color: #5d3eff;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    color: white;
+    position: relative;
+    left: -10px;
+    z-index: 2;
+}
+
+.headerEmailButton:hover {
+    cursor: pointer;
+}
+
+.headerPicture {
+    scale: 30%;
+}
+
+.headerPartners {
+    padding-top: 50px;
+    color: lightgray;
+}
+
+.partnerPicture {
+    max-width: 30%;
+    max-height: 100%;
+    opacity: 65%;
+}
+
+.part {
+    color: lightgray;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.headerImgWrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerImg {
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Features */
+
+.features {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featuresSubTitle, .featuresSub, .featuresTitle {
+    padding: 18px 0 0 9px;
+}
+
+.featuresDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuresSub {
+    width: 65%;
+    text-align: center;
+}
+
+.featuresTitle {
+    font-size: 25px;
+}
+
+.featuresInfoBox {
+    padding: 35px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.featuresInfo {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic {
+    scale: 100%;
+    opacity: 100%;
+    color: blue;
+}
+
+.infoImg {
+    border: solid 1px lightgray;
+    border-radius: 50%;
+    scale: 100%;
+    padding: 15px;
+}
+
+.boxColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.workInfo {
+    padding-bottom: 35px;
+}
+
+/* Quality Work */
+
+.qualityWork {
+    padding: 35px 125px;
+}
+
+.qualityWorkTitle {
+    font-size: 20px;
+}
+
+.qualityWorkText {
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+.qualityWorkTitleBig {
+    font-size: 50px;
+}
+
+.qualityWorkTitleBigs {
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+.qualityWorkButton {
+    background-color: #5d3eff;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.qualityWorkContainer {
+    display: flex;
+    align-items: center;
+}
+
+.qualityWorkPic {
+    scale: 50%;
+    border: solid 1px gray;
+}
+
+.qualityWorkButton:hover {
+    cursor: pointer;
+}
+
+/* Steps */
+
+.stepsContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.stepsDescription {
+   flex: 0 0 45%;
+}
+.stepsPic {
+   scale: 80%;
+   left: -100px;
+}
+
+.box {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 12px;
+    align-items: center;
+}
+
+.stepsTitleBig {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 45px;
+}
+
+.boxTitle {
+    padding: 15px;
+}
+
+h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.numbers {
+    color: lightgray;
+}
+
+.steps {
+    padding-bottom: 150px;
+}
+
+/* Values */
+
+.valueContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.valueDescription {
+    width: 50%;
+    left: -100px;
+}
+
+.valueTitle {
+    padding-bottom: 25px;
+}
+
+.valueTitleBig {
+    font-size: 55px;
+}
+
+.valueTitleBigs {
+    padding-bottom: 15px;
+    font-size: 55px;
+}
+
+.valueText {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.valueSubText {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.valueAfford {
+    padding-right: 15px;
+}
+
+.valueProf {
+    padding-left: 15px;
+}
+
+.valueButton {
+    background-color: #5d3eff;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    color: white;
+    position: relative;
+    left: -10px;
+    z-index: 2;
+}
+
+.valueButton:hover {
+    cursor: pointer;
+}
+
+.valuePic {
+    width: 50%;
+    scale: 50%;
+}
+
+/* Pricing */
+
+.pricing {
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricingTitleBig {
+    font-size: 55px;
+    padding: 20px 0;
+}
+
+.pricingText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.pricingSub {
+    width: 70%;
+    padding: 20px 0;
+}
+
+.pricingBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxes {
+    border: 1px solid lightgray;
+    width: calc(80%/3);
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.month {
+    padding-bottom: 100px;
+}
+
+.stuff {
+    padding: 12px 0;
+}
+
+.textTop {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.money {
+    padding: 15px 0;
+    font-size: 50px;
+}
+
+.box2 {
+    background-color: #5967d4;
+    border-radius: 20px;
+}
+
+.blackText p, .blackText h1, .blackText h4 {
+    color: #000;
+}
+
+.whiteText p,.whiteText h1, .whiteText h4 {
+    color: white;
+}
+
+.stuff p{
+    color: gray;
+}
+
+.pricingButtonRight {
+    background-color: #f98585;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    box-shadow: 0 6px 0 #3730a3;
+    transition: 
+        transform 0.2s ease, 
+        box-shadow 0.2s ease;
+}
+
+.pricingButtonMid {
+    background-color: white;
+    color: #5d3eff;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    box-shadow: 0 6px 0 #3730a3;
+    transition: 
+        transform 0.2s ease, 
+        box-shadow 0.2s ease;
+}
+
+.pricingButtonLeft {
+    background-color: #55c7be;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    box-shadow: 0 6px 0 #3730a3;
+    transition: 
+        transform 0.2s ease, 
+        box-shadow 0.2s ease;
+}
+
+.pricingButtonLeft:hover, .pricingButtonRight:hover, .pricingButtonMid:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 0 #3730a3;
+}
+
+.assist {
+    padding-bottom: 40px;
+}
+
+/* Testimonials */
+
+.testimonialText {
+    max-width: 1200px;
+    width: 60%;
+}
+
+.testimonialContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 1200px;
+}
+
+.testimonialTitleBig {
+    font-size: 45px;
+    padding: 25px 0;
+}
+
+.stars {
+    display: flex;
+}
+
+.testimonialDesc {
+    padding-bottom: 50px;
+}
+.testimonialSub {
+    padding: 15px 0;
+}
+
+.testimonialSubText {
+    padding-bottom: 25px;
+}
+
+.ladyImg {
+    border-radius: 50%;
+    width: 80px;
+    height: 80x;
+}
+
+.tesimonialPeople {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testButton1, .testButton2 {
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+}
+
+.testButton1:hover, .testButton2:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.testButton1 {
+    transform: rotateY(180deg);
+}
+
+.testPic {
+    width: 80%;
+}
+
+.testimonials {
+    padding-bottom: 50px;
+}
+
+/* Developers */
+
+.devBox {
+    padding-bottom: 300px;
+}
+
+.devText {
+    border: 3px solid #5d3eff;
+    border-radius: 10px;
+    background-color: #5d3eff;
+    height: 250px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+}
+
+.devTitle {
+    font-size: 25px;
+}
+
+.devBoxContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.devTit {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 50px 200px;
+    color: white !important;
+}
+
+.devButton1, .devButton2 {
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 40px;
+    padding: 25px 40px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.devButton1 {
+    background-color: #f56565;
+}
+
+.devButton1:hover {
+    cursor: pointer;
+}
+
+.devButton2 {
+    background-color: #5d3eff;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+
+.devButton2:hover {
+    cursor: pointer;
+    color: #5d3eff;
+    background-color: white;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 1200px;
+    background-color: #6415ff;
+}
+
+.footBox1, .footBox2, .footBox3, .footBox4, .footBox5 {
+    height: 200px;
+    width: calc(100%/5);
+    padding: 80px 80px 0 80px;
+    color: white;
+}
+
+.footerBoxes {
+    display: flex;
+}
+
+.footerExtras {
+    display: flex;
+}
+
+.footerTitle {
+    padding-bottom: 20px
+}
+
+.footerExtras {
+    padding-top: 200px;
+    padding: 200px 80px 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footCopy {
+    font-weight: normal;
+}
+
+.footImg {
+    width: 30px;
+}
+
+.footLogo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footButt {
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+}
+
+
+
+/* Text Effects */
+
+.hoverUnderline {
+    position: relative;
+    cursor: pointer;
+    display: inline;
+}
+
+.hoverUnderline:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.hoverUnderline:hover:after {
+    opacity: 1;
+}
+
+.hoverUnderline.White::after {
+    background-color: white;
+}
