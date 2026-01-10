@@ -746,3 +746,143 @@ h4 {
 .hoverUnderline.White::after {
     background-color: white;
 }
+
+/* Mobile */
+
+.headerImg,
+.qualityWorkPic img,
+.stepsPic img,
+.valuePic img,
+.testPic,
+.partnerPicture {
+  max-width: 1200px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .headerDescription,
+  .qualityWorkText,
+  .valueDescription,
+  .testimonialText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .headerPara {
+    width: 100%;
+  }
+
+  .headerImg,
+  .valuePic img,
+  .qualityWorkPic img,
+  .stepsPic img,
+  .testPic {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .qualityWorkContainer,
+  .stepsContainer,
+  .valueContainer,
+  .testimonialContainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .stepsContainer {
+    flex-direction: column-reverse;
+  }
+
+  .pricingBoxes {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .boxes {
+    width: 90%;
+  }
+
+  .featuresInfoBox {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .devText {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .devTit {
+    padding: 0;
+  }
+
+  .footerBoxes {
+    flex-wrap: wrap;
+  }
+
+  .footBox1,
+  .footBox2,
+  .footBox3,
+  .footBox4,
+  .footBox5 {
+    width: 50%;
+    padding: 40px;
+  }
+
+  .footerExtras {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+/* PHONE SIZE */
+@media (max-width: 600px) {
+  .featuresInfoBox {
+    grid-template-columns: 1fr;
+  }
+
+  .headerTitle {
+    font-size: 28px;
+  }
+
+  .qualityWorkTitleBig,
+  .valueTitleBig,
+  .pricingTitleBig,
+  .testimonialTitleBig {
+    font-size: 32px;
+  }
+
+  .stepsTitleBig {
+    font-size: 28px;
+  }
+
+  .headerEmail {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .headerEmailButton {
+    width: 100%;
+    left: 0;
+  }
+
+  .footer {
+    height: auto;
+    padding-bottom: 100px;
+  }
+}
